@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://estefacamp.github.io/ENCRIPTATEXTO/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de mensajes</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <link href="./img_files/css2" rel="stylesheet">
+        <link rel="stylesheet" href="./img_files/style.css">
+        <link rel="icon" type="image/icon" href="https://estefacamp.github.io/ENCRIPTATEXTO/img/favi.ico">
+    </head>
+
+    <body>
+        <header>
+            <img src="./img_files/alura.svg" alt="logo de alura">
+        </header>
+        <main>
+            <form class="form_section">
+                <textarea class="form_input" name="mensaje" id="miTextarea" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="btn_container">
+                    <div class="alert_msj">
+                        <img src="./img_files/bi_exclamation-circle-fill.svg" alt="alert"><span>solo letras minúsculas y sin acento</span></div>
+                </div>
+                <div class="submit_container">
+                    <input class="form_btn" type="submit" value="Encriptar" id="encriptarBtn"><input class="form_btn--secondary" type="submit" value="Desencriptar" id="desencriptarBtn">
+                </div>
+                </form>
+                <aside class="result"><img src="./img_files/muñeco.svg.png" alt="Imagen de monito" class="result_img">
+                    <div id="carga" class="loader hidden"></div>
+                    <div class="result_container">
+                        <button id="copiarBtn" class="form_btn--secondary hidden">Copiar</button>
+                        <h3 class="result_title">Ningún mensaje fue encontrado</h3>
+                        <p id="result_text" class="result_text">Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
+                </aside>
+        </main>
+                <footer>
+                <p class="copyright">© copyright2024 - Encriptador de texto - Desarrollado por Estefania Campisi</p>
+                </footer>
+        <script src="./img_files/index.js.descarga"></script>
+    
+    </body></html>
