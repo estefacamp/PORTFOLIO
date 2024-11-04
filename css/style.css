@@ -14,7 +14,7 @@ html{
 .contenedor-header{
     background: #1e2326;
     position: fixed;
-    width: 99%;
+    width: 100%;
     top:0;
     left: 0;
     z-index: 99;
@@ -644,9 +644,9 @@ transition: 1s;
     font-size: 18px;
 }
 /*  SECCION       R E S P O N S I V E */
-@media screen and (max-width:980px){
+@media screen and (max-width:1100px){
     #nav{
-        display: none;
+        
     }
     .nav-responsive{
         display: block;
@@ -663,7 +663,7 @@ transition: 1s;
         display: block !important; 
     }
     .responsive #nav ul li{
-        border-bottom: 1px solid #fff;
+        border-bottom: 0px solid #fff;
         padding: 10px 0;
     }
 }
