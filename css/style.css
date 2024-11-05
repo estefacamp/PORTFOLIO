@@ -59,7 +59,7 @@ display: none;
 /*  SECCION INICIO*/
 .inicio {
     background-color: linear-gradient( to top,rgba(30,35,38,.8),rgba(30,35,38,1)),;
-    background-image: url(/img/fondo.jpg.png);
+    background-image: url(/img/fondo.jpg);
     background-size: cover;
     height: 120vh;
     color:#FFF;
@@ -588,7 +588,7 @@ transition: 1s;
         background-color: #252A2E;
         padding: 20px;
         max-width: 350px;
-        left: 50%;
+        left:45%;
         transform: translate(-40%, -40%);
     }
     .contacto .col .info ul{
