@@ -59,15 +59,13 @@ display: none;
 /*  SECCION INICIO*/
 .inicio {
     background-color: linear-gradient( to top,rgba(30,35,38,.8),rgba(30,35,38,1)),;
-    background-color: #252A2E;
+    background-image: url(/img/fondo.jpg.png);
     background-size: cover;
     height: 120vh;
     color:#FFF;
     display: flex;
     align-items:center;
-    border: 20px solid #1fcaab;
-    border-top-right-radius: 50% 50% 50% 50%;
-      }
+}
 .contenedor img{
     height: 50%;
     width: 50%;
