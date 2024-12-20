@@ -54,7 +54,7 @@ color:#FFF;
 padding: 1px 1px;
 border-radius: 2px;
 cursor: pointer;
-display: none;
+
 }
 /*  SECCION INICIO*/
 .inicio {
@@ -295,7 +295,7 @@ h1 h2{
 }
 @keyframes javascript{
     0%{width:0%;}
-    100%{width: 20%;}
+    100%{width: 50%;}
 }
 .skills .skill .htmlcss{
     width: 0%;
@@ -643,29 +643,29 @@ transition: 1s;
     font-size: 18px;
 }
 /*  SECCION       R E S P O N S I V E */
-@media screen and (max-width:980px){
-    #nav{
-        display: none;
+    @media screen and (max-width:980px){
+        nav{
+            display: none;
+        }
+        .nav-responsive{
+            display: block;
+        }
+        nav.responsive{
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 75px;
+            background-color: #252A2E;
+            width: 180px;
+        }
+        nav.responsive ul{
+            display: block !important;
+        }
+        nav.responsive ul li{
+            border-bottom: 1px solid #fff;
+            padding: 10px 0;
+        }
     }
-    .nav-responsive{
-        display: block;
-    }
-    .responsive #nav {
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 75px;
-        background-color: #252A2E;
-        width: 180px;
-    }
-    .responsive #nav  ul{
-        display: block !important; 
-    }
-    .responsive #nav ul li{
-        border-bottom: 0px solid #fff;
-        padding: 10px 0;
-    }
-}
 @media screen and (max-width:700px){
     .sobremi .fila{
         display: block;

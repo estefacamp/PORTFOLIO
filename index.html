@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--Menu encabezado-->
@@ -16,16 +16,16 @@
             </div>
             <nav id="nav" class="responsive">
                 <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#sobremi">SOBRE MI</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#curriculum">CURRICULUM</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi"onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills"onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio"onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto"onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
-                <i class="fa-solid fa-bars"></i>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>            
             </div>
         </header>
     </div>
@@ -65,7 +65,7 @@
                         1155225544</li>
                     <li>
                         <strong>Email</strong>
-                        estefania.campisi@gmail.com</li>
+                        estefania.eds@gmail.com</li>
                     <li>
                         <strong>Direccion</strong> Buenos Aires, Argentina</li>
                     <li>
@@ -131,7 +131,7 @@
                             <span>Javascript</span>
                             <div class="barra-skill">
                                 <div class="progreso javascript">
-                                    <span>20%</span>
+                                    <span>50%</span>
                                 </div>
                             </div>
                         </div>
@@ -330,6 +330,5 @@
             <a href="#"><i class="fa-brands fa-skype"></i></a>
         </div>
         </footer>
-
-</body>
+<script src="script.js"></script>
 </html>
